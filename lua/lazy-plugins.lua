@@ -12,42 +12,35 @@ require('lazy').setup({
 
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
-  require 'kickstart.plugins.which-key',
+  require 'shai.plugins.which-key',
 
-  require 'kickstart.plugins.telescope',
+  require 'shai.plugins.telescope',
 
-  require 'kickstart.plugins.lspconfig',
+  require 'shai.plugins.lspconfig',
 
-  require 'kickstart.plugins.conform',
+  require 'shai.plugins.conform',
 
-  require 'kickstart.plugins.cmp',
+  require 'shai.plugins.cmp',
 
-  require 'kickstart.plugins.tokyonight',
+  require 'shai.plugins.tokyonight',
 
-  require 'kickstart.plugins.todo-comments',
+  require 'shai.plugins.todo-comments',
 
-  require 'kickstart.plugins.mini',
+  require 'shai.plugins.mini',
 
-  require 'kickstart.plugins.treesitter',
+  require 'shai.plugins.treesitter',
 
-  -- require 'kickstart.plugins.indent_line',
+  -- require 'shai.plugins.indent_line',
 
-  require 'kickstart.plugins.lint',
+  require 'shai.plugins.lint',
 
-  require 'kickstart.plugins.autopairs',
+  require 'shai.plugins.autopairs',
 
-  require 'kickstart.plugins.neo-tree',
+  require 'shai.plugins.neo-tree',
 
-  require 'kickstart.plugins.fugitive',
+  require 'shai.plugins.fugitive',
 
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
-
-  -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
-  --    This is the easiest way to modularize your config.
-  --
-  --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
-  --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
-  -- { import = 'custom.plugins' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
